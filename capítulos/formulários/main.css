@@ -1,3 +1,7 @@
+*{
+    color: black;
+}
+
 /* se aplica a todos os elementos que não foram especificados abaixo */
 .center {
     margin: auto;
@@ -22,9 +26,27 @@ img.center {
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: rebeccapurple;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+h1{
+    font-size: 40px;
+    font-size: 40px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+input{
+    color: black;
+}
+
+#central{
+    height: 100vh;
+    background: whitesmoke;
+    padding: 0px 30px 0px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px black;
 }
 
 .white-background {
